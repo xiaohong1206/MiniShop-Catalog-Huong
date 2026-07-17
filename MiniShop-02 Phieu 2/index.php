@@ -85,29 +85,12 @@ $totalInventory = inventoryValue($products);
             //}
             ?>
         </table>
-        <br>
-        <b>Tổng giá trị kho = 
+       
         <?php
         //echo inventoryValue($products);
         $product = findProductBySku($products, "MN-02");
         echo "<b>Kiểm tra SKU MN-02:</b>";
         echo htmlspecialchars($product["name"]);
-        ?>
-        //</b>
-        //<br><br>
-        //<h3>Kiểm tra hàm</h3>
-        //<?php
-        //echo "Số sản phẩm Ban phim:";
-        //echo countByCategory($products,1);
-        //echo"<br>";
-        //echo "Số sản phẩm Chuot";
-        //echo countByCategory($products,2);
-        //echo "<br>";
-        //echo countByCategory($products,3);
-        //echo "<br><br>";
-        //$sp = findProductBySku($products,"MN-02");
-        //echo "Tên sản phẩm MN-02: ";
-       // echo htmlspecialchars($sp["name"]);
         ?>
     </body>
 </html>
