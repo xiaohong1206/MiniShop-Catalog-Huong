@@ -19,4 +19,5 @@ Bài tập PHP - MiniShop Catalog
 1. Copy project vào thư mục htdocs của XAMPP
 2. Khởi động Apache
 3. Truy cập
+
 http://localhost/minishop-01/
