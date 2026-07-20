@@ -20,6 +20,8 @@ Bài tập PHP - MiniShop Catalog
 2. Khởi động Apache
 3. Truy cập
 
-http://localhost/minishop-01/
+http://localhost/cse485-ms-01/
+## Xem video
+https://drive.google.com/file/d/1v6ZizfhyHN61_fBzWKE55B5k7i7WBUag/view?usp=sharing
 
 
