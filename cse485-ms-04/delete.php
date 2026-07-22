@@ -1,7 +1,11 @@
 <?php
+
 require_once __DIR__ . '/config.php';
+
+$id = (int)($_POST['id'] ?? 0);
 
 $stmt = db()->prepare('DELETE FROM categories WHERE id = ?');
 $stmt->execute([$id]);
 
-echo 'Da xoa, rowCount = ' . $stmt->rowCount();
+header('Location: categories.php');
+exit;
